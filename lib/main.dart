@@ -29,6 +29,84 @@ class MyApp extends StatelessWidget {
             )
           ],
         ),
+        body: SafeArea(
+          child: ListView(
+            children: <Widget>[
+              ListTile(
+                contentPadding: const EdgeInsets.symmetric(
+                  horizontal: 32.0,
+                  vertical: 8.0,
+                ),
+                leading: ClipOval(
+                  child: Image.asset('assets/img/icon1.jpg'),
+                ),
+                trailing: Text('3分前'),
+                title: Text('NAMEさん'),
+                subtitle: Text('こんにちは'),
+              ),
+              ListTile(
+                contentPadding: const EdgeInsets.symmetric(
+                  horizontal: 32.0,
+                  vertical: 8.0,
+                ),
+                leading: ClipOval(
+                  child: Image.asset('assets/img/icon2.jpg'),
+                ),
+                trailing: Text('3分前'),
+                title: Text('NAMEさん'),
+                subtitle: Text('こんにちは'),
+              ),
+              ListTile(
+                contentPadding: const EdgeInsets.symmetric(
+                  horizontal: 32.0,
+                  vertical: 8.0,
+                ),
+                leading: ClipOval(
+                  child: Image.asset('assets/img/icon3.jpg'),
+                ),
+                trailing: Text('3分前'),
+                title: Text('NAMEさん'),
+                subtitle: Text('こんにちは'),
+              ),
+              ListTile(
+                contentPadding: const EdgeInsets.symmetric(
+                  horizontal: 32.0,
+                  vertical: 8.0,
+                ),
+                leading: ClipOval(
+                  child: Image.asset('assets/img/icon4.jpg'),
+                ),
+                trailing: Text('3分前'),
+                title: Text('NAMEさん'),
+                subtitle: Text('こんにちは'),
+              ),
+              ListTile(
+                contentPadding: const EdgeInsets.symmetric(
+                  horizontal: 32.0,
+                  vertical: 8.0,
+                ),
+                leading: ClipOval(
+                  child: Image.asset('assets/img/icon5.jpg'),
+                ),
+                trailing: Text('3分前'),
+                title: Text('NAMEさん'),
+                subtitle: Text('こんにちは'),
+              ),
+              ListTile(
+                contentPadding: const EdgeInsets.symmetric(
+                  horizontal: 32.0,
+                  vertical: 8.0,
+                ),
+                leading: ClipOval(
+                  child: Image.asset('assets/img/icon6.jpg'),
+                ),
+                trailing: Text('3分前'),
+                title: Text('NAMEさん'),
+                subtitle: Text('こんにちは'),
+              )
+            ],
+          ),
+        ),
       ),
     );
   }
